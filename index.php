@@ -58,7 +58,7 @@ function notified( $orderid ): bool {
 register_activation_hook( __FILE__, "jal_install" );
 
 
-function get_bot_token(): int {
+function get_bot_token() {
 	return "0000:xxxxxxxxxx";
 }
 
